@@ -37,7 +37,7 @@
 -- +-------------+
 -- Explanation: Only products 1 and 3 are both low fat and recyclable.
 
----- Solution ---- 
+--- Query  
 SELECT product_id FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
 
